@@ -1,0 +1,8 @@
+/* ===================== Header Socials ==================== */
+
+.header__socials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    color: black;
+}
