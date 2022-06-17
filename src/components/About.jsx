@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
+import Resume from '../assets/RK_Resume.pdf'
 
 Modal.setAppElement("#root");
 
@@ -22,7 +23,7 @@ const About = () => {
         </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">RJ Kirk, CFA </h3>
           <div className="description_inner">
             <div className="left">
               <p>
@@ -40,41 +41,32 @@ const About = () => {
             {/* END LEFT */}
             <div className="right">
               <ul>
-                <li>
+              <li>
                   <p>
-                    <span>Birthday:</span>01.07.1990
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age:</span>31
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Resume:</span>
+                    <a href= {Resume}>Click to Download</a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    <a href="mailto:r.kirk430@gmail.com">r.kirk430@gmail.com</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>Location:</span> New Jersey | New York
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
+                    <a href="tel:+16096102803">+1 609 610 2803</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Study:</span>Univercity of Texas
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance:</span>Available
+                    <span>Certifications:</span> CFA Charterholder, GA SEI
                   </p>
                 </li>
               </ul>
