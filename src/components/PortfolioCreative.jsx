@@ -7,6 +7,30 @@ import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
 
+const data = [
+  {
+    id:1,
+    // image: IMG1,
+    title: 'Alternative Data Website',
+    github: 'https://github.com/rkirk430/P4_AltData_Frontend',
+    demo: 'https://main--dashing-lily-e195e6.netlify.app/'
+  },
+  {
+    id:2,
+    // image: IMG2,
+    title: 'Portfolio Website',
+    github: 'https://github.com/rkirk430/portfolio-website',
+    demo: 'https://main--dashing-lily-e195e6.netlify.app/'
+  },
+  {
+    id:1,
+    // image: IMG1,
+    title: 'Alternative Data Website',
+    github: 'https://github.com',
+    demo: 'https://main--dashing-lily-e195e6.netlify.app/'
+  }
+]
+
 const Portfolio = () => {
   // for popup video
   const [isOpen, setOpen] = useState(false);
@@ -41,9 +65,9 @@ const Portfolio = () => {
             <Tabs>
               <TabList>
                 <Tab>All</Tab>
-                <Tab>Vimeo</Tab>
-                <Tab>Youtube</Tab>
-                <Tab>Photography</Tab>
+                <Tab>Websites</Tab>
+                <Tab>Financial Models</Tab>
+                <Tab>Reports</Tab>
                 <Tab>Details</Tab>
               </TabList>
               {/* END TABLIST */}
@@ -370,6 +394,10 @@ const Portfolio = () => {
                 </TabPanel>
                 {/* END PHOTOGRAHY */}
 
+
+
+
+
                 <TabPanel>
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
@@ -391,7 +419,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Selena Gomez</h5>
+                              <h5>Alternative Data Site</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -399,6 +427,8 @@ const Portfolio = () => {
                       </div>
                     </li>
                     {/* END DETAILS */}
+
+
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -457,6 +487,8 @@ const Portfolio = () => {
         onClose={() => setOpen2(false)}
       />
 
+{/* ------------------PORTFOLIO DETAILS---------------------------------------------------- */}
+
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen3}
@@ -484,40 +516,35 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Selena Gomez</h3>
-                <span>Details</span>
+                <h3>Alternative Data Site</h3>
+                <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                  Quantstamp is an alternative Data site that leverages various available API databases to display alternative financial data. Data will render and update from the template automatically and will leverage graphing options to display changes on the site.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                  Quantstamp leverages data from various third party sites to display real-time alternative trade data.
                   </p>
+                  <a href= {data[0].github} className='btn' target = '_blank'> Github </a>
+                  <br></br>
+                  <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">Languages</span>
+                      <span>React, Heroku, MongoDB, JS, Bootstrap, CSS</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Websites</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>June 17, 2022</span>
                     </li>
                     <li>
                       <span className="first">Share</span>
@@ -583,6 +610,11 @@ const Portfolio = () => {
       </Modal>
       {/* END MODAL FOR PORTFOLIO DETAILS */}
 
+{/* ----------------End of Details 1------------------------- */}
+
+
+
+
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen4}
@@ -610,17 +642,14 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Details</span>
+                <h3>Personal Portfolio Website</h3>
+                <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    Personal portfolio page using React
                   </p>
                   <p>
                     Mockups are useful both for the creative phase of the
@@ -630,20 +659,23 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <a href= {data[1].github} className='btn' target = '_blank'> Github </a>
+                  <br></br>
+                  <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">Languages</span>
+                      <span>React, Javascript, Bootstrap, CSS</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Websites</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>June 17, 2022</span>
                     </li>
                     <li>
                       <span className="first">Share</span>

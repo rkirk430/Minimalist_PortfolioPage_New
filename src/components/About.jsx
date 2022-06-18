@@ -44,7 +44,7 @@ const About = () => {
               <li>
                   <p>
                     <span>Resume:</span>
-                    <a href= {Resume}>Click to Download</a>
+                    <a href= {Resume} target= "_blank">Click to Download</a>
                   </p>
                 </li>
                 <li>
@@ -101,14 +101,14 @@ const About = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Front & Backend Development</h3>
                   </div>
                   {/* END ABOUT TITLE */}
-
                   <div className="tokyo_progress">
+                    {/* Development Experience 1 */}
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Wedding Photography</span>
+                        <span className="label">HTML </span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
@@ -120,10 +120,87 @@ const About = () => {
                         </div>
                       </div>
                     </div>
+                    {/* End of Development Experience 1 */}
+                    {/* Development Experience 2 */}
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">Javascript</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* End of Development Experience 2 */}
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
+                        <span className="label">Python</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">MySQL</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">Node JS</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">React</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">MongoDB</span>
                         <span className="number">80%</span>
                       </span>
                       <div className="background">
@@ -138,7 +215,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Family Photography</span>
+                        <span className="label">CSS</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">
@@ -151,19 +228,23 @@ const About = () => {
                       </div>
                     </div>
                   </div>
+
+                  
                   {/* END PROGRESS */}
+
+                  
                 </div>
                 {/* END LEFT */}
 
                 <div className="right">
                   <div className="about_title">
-                    <h3>Language Skills</h3>
+                    <h3>Financial Literacy</h3>
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">English</span>
+                        <span className="label">Financial Modeling</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
@@ -178,7 +259,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
+                        <span className="label">Equity Valuation</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">
@@ -191,9 +272,84 @@ const About = () => {
                       </div>
                     </div>
 
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">Forecasting</span>
+                        <span className="number">90%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 90 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">GAAP / IFRS Accounting Methods</span>
+                        <span className="number">90%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 90 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">Equity Product Strategy</span>
+                        <span className="number">90%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 90 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">Commodity Forecasting</span>
+                        <span className="number">90%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 90 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">Bloomberg / FactSet</span>
+                        <span className="number">100%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 100 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">Arabian</span>
+                        <span className="label">Industry Supply & Demand Modeling</span>
                         <span className="number">85%</span>
                       </span>
                       <div className="background">
@@ -219,8 +375,8 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                      <h3>9+ Years</h3>
+                      <span>Markets Experience</span>
                     </div>
                   </li>
                   <li>
