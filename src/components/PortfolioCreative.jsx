@@ -423,6 +423,8 @@ const Portfolio = () => {
 
 {/* ----------------End of Details 1------------------------- */}
 
+{/* Start Modal Details 2 */}
+
 
 
 
