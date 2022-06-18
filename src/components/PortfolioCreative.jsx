@@ -33,12 +33,22 @@ const data = [
 
 const Portfolio = () => {
   // for popup video
-  const [isOpen, setOpen] = useState(false);
-  const [isOpen2, setOpen2] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
+  // const [isOpen2, setOpen2] = useState(false);
 
   // for modal
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+
+  function toggleModal() {
+    setIsOpen(!isOpen);
+  }
+
+  function toggleModalTwo() {
+    setIsOpen2(!isOpen2);
+  }
 
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
