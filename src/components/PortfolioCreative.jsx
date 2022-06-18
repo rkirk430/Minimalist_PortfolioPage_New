@@ -71,129 +71,14 @@ const Portfolio = () => {
                 <Tab>Details</Tab>
               </TabList>
               {/* END TABLIST */}
+
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
-                            data-tip
-                            data-for="vimeo"
-                            onClick={() => setOpen2(true)}
-                          />
-                          <ReactTooltip
-                            id="vimeo"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Teresa Butler</h5>
-                              <span>Vimeo</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END VIMEO */}
-                    <li
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay="100"
-                    >
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/2.jpg"
-                            alt="Youtube"
-                            data-tip
-                            data-for="youtube"
-                            onClick={() => setOpen(true)}
-                          />
-                          <ReactTooltip
-                            id="youtube"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Ashely Flores</h5>
-                              <span>Youtube</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END YOUTUBE */}
-                    <SRLWrapper>
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="200"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
-                              <img
-                                src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
-                                data-tip
-                                data-for="shot"
-                              />
-                              <ReactTooltip
-                                id="shot"
-                                place="bottom"
-                                type="light"
-                                effect="float"
-                                className="tooltip-wrapper"
-                              >
-                                <div>
-                                  <h5>Derek Smith</h5>
-                                  <span>Shot</span>
-                                </div>
-                              </ReactTooltip>
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="300"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
-                              <img
-                                src="assets/img/portfolio/3.jpg"
-                                alt="Besh Award"
-                                data-tip
-                                data-for="shot2"
-                              />
-                            </a>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                    </SRLWrapper>
+
+
+                    {/* Start: Portfolio Item 1 Details */}
+
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -217,14 +102,18 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Selena Gomez</h5>
+                              <h5>Alternative Data Site</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
                         </div>
                       </div>
                     </li>
-                    {/* END DETAILS */}
+                    {/* End Portfolio Item 1 Details */}
+
+
+                    {/* Start: Porfolio Item 2 Details */}
+
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -255,144 +144,81 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li>
-                    {/* END DETAILS */}
+                    {/* End Portfolio Item 2 Details */}
+
+                    {/* Start: Porfolio Item 3 Details */}
+
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/7.jpg"
+                            alt="Details"
+                            data-tip
+                            data-for="detail2"
+                            onClick={toggleModalFour}
+                          />
+
+                          <ReactTooltip
+                            id="detail2"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Ave Simone</h5>
+                              <span>Details</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* End Portfolio Item 3 Details */}
+
+                    {/* Start: Porfolio Item 4 Details */}
+
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="200"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <img
+                            src="assets/img/portfolio/7.jpg"
+                            alt="Details"
+                            data-tip
+                            data-for="detail2"
+                            onClick={toggleModalFour}
+                          />
+
+                          <ReactTooltip
+                            id="detail2"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>Ave Simone</h5>
+                              <span>Details</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* End Portfolio Item 4 Details */}
+
                   </ul>
                   {/* END PORTFOLIO LIST */}
                 </TabPanel>
                 {/* END ALL PORTFOLIO GALLERY */}
 
-                <TabPanel>
-                  <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
-                            data-tip
-                            data-for="vimeo"
-                            onClick={() => setOpen2(true)}
-                          />
-                          <ReactTooltip
-                            id="vimeo"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Teresa Butler</h5>
-                              <span>Vimeo</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END VIMEO */}
-                  </ul>
-                  {/* END PORTFOLIO LIST */}
-                </TabPanel>
-                {/* END VIMEO VIDEO */}
-
-                <TabPanel>
-                  <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/2.jpg"
-                            alt="Youtube"
-                            data-tip
-                            data-for="youtube"
-                            onClick={() => setOpen(true)}
-                          />
-                          <ReactTooltip
-                            id="youtube"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Ashely Flores</h5>
-                              <span>Youtube</span>
-                            </div>
-                          </ReactTooltip>
-                        </div>
-                      </div>
-                    </li>
-                    {/* END YOUTUBE */}
-                  </ul>
-                  {/* END PORTFOLIO LIST */}
-                </TabPanel>
-                {/* END YOUTUBE VIDEO */}
-
-                <TabPanel>
-                  <ul className="portfolio_list">
-                    <SRLWrapper>
-                      <li data-aos="fade-right" data-aos-duration="1200">
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
-                              <img
-                                src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
-                                data-tip
-                                data-for="shot"
-                              />
-                              <ReactTooltip
-                                id="shot"
-                                place="bottom"
-                                type="light"
-                                effect="float"
-                                className="tooltip-wrapper"
-                              >
-                                <div>
-                                  <h5>Derek Smith</h5>
-                                  <span>Shot</span>
-                                </div>
-                              </ReactTooltip>
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
-                              <img
-                                src="assets/img/portfolio/3.jpg"
-                                alt="Besh Award"
-                                data-tip
-                                data-for="shot2"
-                              />
-                            </a>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                    </SRLWrapper>
-                  </ul>
-                  {/* END PORTFOLIO LIST */}
-                </TabPanel>
-                {/* END PHOTOGRAHY */}
 
 
 
@@ -471,21 +297,6 @@ const Portfolio = () => {
         </div>
       </SimpleReactLightbox>
 
-      {/* all modal video and popup goes here */}
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="1gyTUHP6ne8"
-        onClose={() => setOpen(false)}
-      />
-      <ModalVideo
-        channel="vimeo"
-        autoplay
-        isOpen={isOpen2}
-        videoId="100171151"
-        onClose={() => setOpen2(false)}
-      />
 
 {/* ------------------PORTFOLIO DETAILS---------------------------------------------------- */}
 
