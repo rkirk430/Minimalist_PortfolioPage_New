@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import Headshot from "../assets/headshot_picture_bw.png"
 
 const Home = () => {
   return (
@@ -10,9 +11,11 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundColor: "lightgray",
               }}
-            ></div>
+            >
+              <img src={Headshot} alt="d" />,
+            </div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
