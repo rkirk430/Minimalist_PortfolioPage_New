@@ -3,6 +3,8 @@ import Modal from "react-modal";
 import Brand from "./Brand";
 import Resume from '../assets/RK_Resume.pdf'
 import Doggo from '../assets/dog.jpg'
+// import City from '../assets/city_background.jpg'
+import City from '../assets/Clouds_City.jpg'
 
 Modal.setAppElement("#root");
 
@@ -17,12 +19,8 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image ">
-          {/* <img src={Doggo} alt="Doggoe" /> */}
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src={City} alt="City" />
         </div>
-        {/* <div className="o-video">
-          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
-        </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
           <h3 className="name">RJ Kirk, CFA </h3>
