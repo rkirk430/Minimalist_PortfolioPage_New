@@ -5,6 +5,9 @@ import ReactTooltip from "react-tooltip";
 import Modal from "react-modal";
 import Social from "./Social";
 import Excel from '../assets/Exit_Opportunities.xlsx';
+// import AltData from "../assets/portfoio/Alt_Data.jpg";
+// import AltData from "../assets/portfoio/Alt_data_redone_adobe_express.jpg";
+import AltData from "../assets/portfoio/AnotherAlt_adobe_express.jpeg";
 
 
 
@@ -114,7 +117,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src={AltData}
                             alt="Details"
                             data-tip
                             data-for="detail"
@@ -360,7 +363,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src={AltData}
                             alt="Details"
                             data-tip
                             data-for="detail"
@@ -630,9 +633,13 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                  }}
-                ></div>
+                    // backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundColor: "lightgray",
+                  }}>
+                    <img src={AltData} alt="Data" />
+
+                  
+                </div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">

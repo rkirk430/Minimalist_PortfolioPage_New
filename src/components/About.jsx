@@ -3,8 +3,8 @@ import Modal from "react-modal";
 import Brand from "./Brand";
 import Resume from '../assets/RK_Resume.pdf'
 import Doggo from '../assets/dog.jpg'
-// import City from '../assets/city_background.jpg'
-import City from '../assets/Clouds_City.jpg'
+
+import City from '../assets/Clouds_City_Resized.jpg'
 
 Modal.setAppElement("#root");
 
