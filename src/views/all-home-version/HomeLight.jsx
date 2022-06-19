@@ -4,7 +4,6 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/PortfolioCreative";
-import News from "../../components/News";
 import Contact from "../../components/Contact";
 
 const HomeLight = () => {
@@ -74,14 +73,17 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* Retiring NEWS Tab */}
+
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
+
                   <Tab>
                     <img
                       className="svg"
@@ -127,9 +129,13 @@ const HomeLight = () => {
                 </TabPanel>
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
-                <TabPanel>
+                {/* Retiring News Tab */}
+
+                {/* <TabPanel>
                   <News />
-                </TabPanel>
+                </TabPanel> */}
+
+
                 {/* END NEWS MENU TAB CONTENT */}
 
                 <TabPanel>
