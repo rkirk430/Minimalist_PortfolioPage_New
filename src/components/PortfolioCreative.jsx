@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
 import ReactTooltip from "react-tooltip";
-import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
 import Excel from '../assets/Exit_Opportunities.xlsx';
-import Resume from '../assets/RK_Resume.pdf'
+
 
 
 const data = [

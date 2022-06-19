@@ -13,22 +13,14 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
-        e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
-      )
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => {
-        console.log(err);
+    emailjs.sendForm("service_7wfm3wt", "template_uxy57x8", e.target, "nDz1FcThApztcRH-T")
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
       });
-
-    e.target.reset();
-  }
+      e.target.reset()
+  };
 
   return (
     <>
