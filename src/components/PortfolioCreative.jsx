@@ -6,6 +6,9 @@ import ReactTooltip from "react-tooltip";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
+import Excel from '../assets/Exit_Opportunities.xlsx';
+import Resume from '../assets/RK_Resume.pdf'
+
 
 const data = [
   {
@@ -105,7 +108,6 @@ const Portfolio = () => {
 
 
                     {/* Start: Portfolio Item 1 Details */}
-
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -170,6 +172,7 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li>
+                    
                     {/* End Portfolio Item 2 Details */}
 
                     {/* Start: Portfolio Item 3 Details */}
@@ -354,7 +357,7 @@ const Portfolio = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                {/* Start More Details 1: */}
+                  {/* Start More Details 1: */}
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
@@ -383,6 +386,7 @@ const Portfolio = () => {
                     </li>
                     {/* End More Details 1 */}
 
+          
                     {/* More Details Project 2 */}
                     <li
                       data-aos="fade-right"
@@ -513,9 +517,19 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li>
+                  </ul>
                     {/* End Details Project 5 */}
+                </TabPanel>
+
+
+{/* ================================================================================================================ */}
+                            {/* Start of Financial Models Tab  */}
+{/* ================================================================================================================ */}
+
+                <TabPanel>
 
                     {/* More Details Project 6 */}
+                  <ul className="portfolio_list">
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -580,11 +594,12 @@ const Portfolio = () => {
                       </div>
                     </li>
                     {/* End Details Project 7 */}
-
-
                   </ul>
                   {/* END DETAILS GALLERY */}
                 </TabPanel>
+{/* ================================================================================================================ */}
+                            {/* End of Financial Models Tab  */}
+{/* ================================================================================================================ */}
                 {/* END CREATIVE PORTFOLIO GALLERY */}
               </div>
               {/* END LIST WRAPPER */}
@@ -1385,6 +1400,7 @@ const Portfolio = () => {
                     development process allows you to quickly and easily ideate.
                   </p>
                   <a href= {data[1].github} className='btn' target = '_blank'> Github </a>
+                  <a href= {Excel} className='btn' target = '_blank'> Excel </a>
                   <br></br>
                   <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
