@@ -13,7 +13,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_7wfm3wt", "template_uxy57x8", e.target, "nDz1FcThApztcRH-T")
+    emailjs.sendForm("service_7wfm3wt", "template_uxy57x8", e.target, `${process.env.REACT_APP_API_KEY}`)
       .then((result) => {
         console.log(result.text);
       }, (error) => {

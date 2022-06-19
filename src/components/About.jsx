@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
 import Resume from '../assets/RK_Resume.pdf'
+import Doggo from '../assets/dog.jpg'
 
 Modal.setAppElement("#root");
 
@@ -16,6 +17,7 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image ">
+          {/* <img src={Doggo} alt="Doggoe" /> */}
           <img src="assets/img/slider/1.jpg" alt="about" />
         </div>
         {/* <div className="o-video">
