@@ -98,8 +98,8 @@ const Portfolio = () => {
                 <Tab>All</Tab>
                 <Tab>Websites</Tab>
                 <Tab>Financial Models</Tab>
-                <Tab>Reports</Tab>
-                <Tab>Details</Tab>
+                {/* <Tab>Reports</Tab>
+                <Tab>Details</Tab> */}
               </TabList>
               {/* END TABLIST */}
 
