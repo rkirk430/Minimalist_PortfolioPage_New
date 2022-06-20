@@ -8,6 +8,9 @@ import Excel from '../assets/Exit_Opportunities.xlsx';
 // import AltData from "../assets/portfoio/Alt_Data.jpg";
 // import AltData from "../assets/portfoio/Alt_data_redone_adobe_express.jpg";
 import AltData from "../assets/portfoio/AnotherAlt_adobe_express.jpeg";
+import PersPort from "../assets/portfoio/Personal_Portfolio.jpg"
+import TeckPic from "../assets/portfoio/Teck_Picture.jpg"
+import TeckModel from "../assets/portfoio/Teck_Model_Client.xlsx"
 
 
 
@@ -22,15 +25,15 @@ const data = [
   {
     id:2,
     // image: IMG2,
-    title: 'Portfolio Website',
+    title: 'Personal Portfolio Website',
     github: 'https://github.com/rkirk430/portfolio-website',
     demo: 'https://main--dashing-lily-e195e6.netlify.app/'
   },
   {
-    id:1,
+    id:3,
     // image: IMG1,
-    title: 'Alternative Data Website',
-    github: 'https://github.com',
+    title: 'Spotify Mockup',
+    github: 'https://github.com/rkirk430/spotify_django',
     demo: 'https://main--dashing-lily-e195e6.netlify.app/'
   }
 ]
@@ -151,7 +154,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src={PersPort}
                             alt="Details"
                             data-tip
                             data-for="detail2"
@@ -166,7 +169,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Big Website Energy</h5>
+                              <h5>Personal Portfolio Template</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -289,7 +292,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={TeckPic}
                             alt="Details"
                             data-tip
                             data-for="detail6"
@@ -304,7 +307,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Client Rendering</h5>
+                              <h5>Teck Resources Financial Model</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -338,7 +341,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Number 7</h5>
+                              <h5>Iamgold Financial Model</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -397,7 +400,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={PersPort}
                             alt="Details"
                             data-tip
                             data-for="detail2"
@@ -412,7 +415,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Project 2</h5>
+                              <h5>Personal Portfolio Template</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -539,7 +542,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={TeckPic}
                             alt="Details"
                             data-tip
                             data-for="detail6"
@@ -554,7 +557,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Project 6</h5>
+                              <h5>Teck Resources Financial Model</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -587,7 +590,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Project 7</h5>
+                              <h5>Iamgold Financial Model</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -682,53 +685,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -762,13 +718,14 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                  }}
-                ></div>
+                    backgroundColor: "lightgray",
+                  }}>
+                    <img src={PersPort} alt="React Portfolio" />
+                  </div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Unsure</h3>
+                <h3>Personal Portfolio Template</h3>
                 <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
@@ -780,15 +737,15 @@ const Portfolio = () => {
                   <p>
                   wassup
                   </p>
-                  <a href= {data[0].github} className='btn' target = '_blank'> Github </a>
+                  <a href= {data[1].github} className='btn' target = '_blank'> Github </a>
                   <br></br>
-                  <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a>
+                  <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
                       <span className="first">Languages</span>
-                      <span>React, Heroku, MongoDB, JS, Bootstrap, CSS</span>
+                      <span>React, Javascript, Bootstrap, CSS</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
@@ -807,53 +764,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -903,15 +813,15 @@ const Portfolio = () => {
                   <p>
                   wassupaaaa
                   </p>
-                  <a href= {data[0].github} className='btn' target = '_blank'> Github </a>
+                  <a href= {data[2].github} className='btn' target = '_blank'> Github </a>
                   <br></br>
-                  <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a>
+                  <a href= {data[2].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
                       <span className="first">Languages</span>
-                      <span>React, Heroku, MongoDB, JS, Bootstrap, CSS</span>
+                      <span>Python, Django, MySQL, CSS</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
@@ -930,53 +840,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -1053,53 +916,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -1176,53 +992,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -1232,6 +1001,14 @@ const Portfolio = () => {
       {/* END MODAL FOR PORTFOLIO DETAILS */}
 
 {/* ----------------End of Details 5------------------------- */}
+
+
+
+{/* =========================================================================================== */}
+{/* ----------------START OF FINANCIAL MODEL MODALS-------------------------------------------- */}
+{/* =========================================================================================== */}
+
+
 
       {/* START MODAL FOR PORTFOLIO DETAILS 6 */}
       <Modal
@@ -1254,13 +1031,14 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                  }}
-                ></div>
+                    backgroundColor: "lightgray",
+                  }}>
+                    <img src={TeckPic} alt="teck" />
+                  </div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Project 6</h3>
+                <h3>Teck Resources Financial Model</h3>
                 <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
@@ -1272,7 +1050,7 @@ const Portfolio = () => {
                   <p>
                   wassupaaaa
                   </p>
-                  <a href= {data[0].github} className='btn' target = '_blank'> Github </a>
+                  <a href= {TeckModel} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
                   <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a>
                 </div>
