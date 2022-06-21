@@ -5,12 +5,12 @@ import ReactTooltip from "react-tooltip";
 import Modal from "react-modal";
 import Social from "./Social";
 import Excel from '../assets/Exit_Opportunities.xlsx';
-// import AltData from "../assets/portfoio/Alt_Data.jpg";
-// import AltData from "../assets/portfoio/Alt_data_redone_adobe_express.jpg";
-import AltData from "../assets/portfoio/AnotherAlt_adobe_express.jpeg";
-import PersPort from "../assets/portfoio/Personal_Portfolio.jpg"
-import TeckPic from "../assets/portfoio/Teck_Picture.jpg"
-import TeckModel from "../assets/portfoio/Teck_Model_Client.xlsx"
+import PersPort from "../assets/portfolio/Personal_Portfolio.jpg"
+import TeckPic from "../assets/portfolio/Teck_Picture.jpg"
+import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
+
+import AltData from "../assets/portfolio/AnotherAlt_adobe_express.jpeg";
+
 
 
 
