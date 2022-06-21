@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Brand from "./Brand";
+// import Brand from "./Brand";
 import Resume from '../assets/RK_Resume.pdf'
-import Doggo from '../assets/dog.jpg'
+
 
 import City from '../assets/Clouds_City_Resized.jpg'
 
@@ -58,12 +58,12 @@ const About = () => {
                     <span>Location:</span> New Jersey | New York
                   </p>
                 </li>
-                <li>
+                {/* <li>
                   <p>
                     <span>Phone:</span>
                     <a href="tel:+16096102803">+1 609 610 2803</a>
                   </p>
-                </li>
+                </li> */}
                 <li>
                   <p>
                     <span>Certifications:</span> CFA Charterholder, GA SEI
@@ -368,41 +368,18 @@ const About = () => {
               </div>
               {/* END MYBOX */}
 
-              <div className="counter">
-                <div className="about_title">
-                  <h3>Fun Facts</h3>
-                </div>
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <h3>9+ Years</h3>
-                      <span>Markets Experience</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
-                    </div>
-                  </li>
-                </ul>
-                {/* END COUNTER CONTENT */}
-              </div>
-              {/* END COUNTER */}
 
-              <div className="partners">
+{/* ============= Save Prior Employer Section as Stretch Goal ================== */}
+
+              {/* <div className="partners">
                 <div className="about_title">
-                  <h3>Our Partners</h3>
+                  <h3>Prior Employers</h3>
                 </div>
                 <Brand />
-              </div>
-              {/* END PARTNER SLIDER */}
+              </div> */}
+
+ {/* ==================== END of Prior Employer Section ========================= */}
+      
             </div>
           </div>
         </div>
