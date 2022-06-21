@@ -213,7 +213,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ayooo</h5>
+                              <h5>Spotify</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -282,7 +282,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Ave Simone</h5>
+                              <h5>Project 5</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -457,7 +457,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Project 3</h5>
+                              <h5>Spotify</h5>
                               <span>Details</span>
                             </div>
                           </ReactTooltip>
@@ -741,10 +741,10 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Blahblahblah
+                    Personal portfolio website that leverages React JS. The website is mobile friendly, includes a sliding navigation bar and working contact form. In addition the form also gives the option for the user to add potential services they can provide to clients as well as a breakdown of their individual coding language skills. This represents a template to be used and refactored for a user’s needs.
                   </p>
                   <p>
-                  wassup
+                    The code format can easily be refactored and the live demo is deployed to Netlify.
                   </p>
                   <a href= {data[1].github} className='btn' target = '_blank'> Github </a>
                   <br></br>
@@ -810,17 +810,17 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>suhh dude</h3>
+                <h3>Spotify</h3>
                 <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Blahblahblah
+                    This code was used to duplicate the homepage of Spotify leveraging Django and Python. I used SQL as our server which allowed us to leverage full CRUD functionality to add and remove artists. 
                   </p>
                   <p>
-                  wassupaaaa
+                    Spotify is currently being finalized and will have a live demo shortly.
                   </p>
                   <a href= {data[2].github} className='btn' target = '_blank'> Github </a>
                   <br></br>
@@ -1054,10 +1054,7 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Blahblahblah
-                  </p>
-                  <p>
-                  wassupaaaa
+                    Represents a fully functional three-statement financial model for a diversified metals producer, Teck Resources. The model provides a segment and asset level breakdown and forecasts mine specific metrics such as grade and recovery rates to forecast revenue and Ebitda on a per asset basis. Links to the model and subsequent research reports are below.
                   </p>
                   <a href= {TeckModel} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
@@ -1067,11 +1064,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">Languages</span>
-                      <span>React, Heroku, MongoDB, JS, Bootstrap, CSS</span>
+                      <span>Excel</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Websites</span>
+                      <span>Financial Models</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
@@ -1174,24 +1171,15 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Personal Portfolio Website</h3>
+                <h3>Iamgold Financial Model</h3>
                 <span>Project Overview</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    Project 7
+                    Represents a fully functional three-statement financial model and blended valuation methodology for a mid-tier gold mining company. The model incorporates a DCF on a per asset basis and incorporates projects likely to be implemented into its cashflow valuation. In addition the model also incorporates a multiples valuation approach, weighting each approach 50% to arrive at an expected price target. Links to the model and subsequent research reports are below. 
                   </p>
-                  <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
-                  </p>
-                  <a href= {data[1].github} className='btn' target = '_blank'> Github </a>
                   <a href= {Excel} className='btn' target = '_blank'> Excel </a>
                   <br></br>
                   <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a>
@@ -1200,11 +1188,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">Languages</span>
-                      <span>React, Javascript, Bootstrap, CSS</span>
+                      <span>Excel</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Websites</span>
+                      <span>Financial Models</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
