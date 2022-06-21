@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        {/* END TITLE */}
+        {/* END of TITLE */}
 
         <div className="map_wrap">
           <div className="map">
