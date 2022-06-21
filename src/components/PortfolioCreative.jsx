@@ -373,6 +373,7 @@ const Portfolio = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
+                    
                   {/* Start More Details 1: */}
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
