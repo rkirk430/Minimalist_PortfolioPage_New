@@ -109,13 +109,13 @@ const About = () => {
                     <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">HTML </span>
-                        <span className="number">95%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 95 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -125,13 +125,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">Javascript</span>
-                        <span className="number">80%</span>
+                        <span className="number">Intermediate</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 50 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -141,13 +141,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">Python</span>
-                        <span className="number">80%</span>
+                        <span className="number">Intermediate</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 50 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -156,13 +156,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">MySQL</span>
-                        <span className="number">80%</span>
+                        <span className="number">Proficient</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 75 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -171,13 +171,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">Node JS</span>
-                        <span className="number">80%</span>
+                        <span className="number">Intermediate</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 50 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -186,13 +186,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">React</span>
-                        <span className="number">80%</span>
+                        <span className="number">Proficient</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 75 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -201,13 +201,13 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">MongoDB</span>
-                        <span className="number">80%</span>
+                        <span className="number">Beginner</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 25 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -216,13 +216,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">CSS</span>
-                        <span className="number">90%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -245,13 +245,13 @@ const About = () => {
                     <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">Financial Modeling</span>
-                        <span className="number">95%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 95 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -260,13 +260,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Equity Valuation</span>
-                        <span className="number">90%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -275,13 +275,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Forecasting</span>
-                        <span className="number">90%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -290,13 +290,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">GAAP / IFRS Accounting Methods</span>
-                        <span className="number">90%</span>
+                        <span className="number">Proficient</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 75 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -305,13 +305,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Equity Product Strategy</span>
-                        <span className="number">90%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -320,13 +320,13 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Commodity Forecasting</span>
-                        <span className="number">90%</span>
+                        <span className="number">Proficient</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 75 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -335,7 +335,7 @@ const About = () => {
                     <div className="progress_inner" data-value="90">
                       <span>
                         <span className="label">Bloomberg / FactSet</span>
-                        <span className="number">100%</span>
+                        <span className="number">Advanced</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -350,13 +350,13 @@ const About = () => {
                     <div className="progress_inner" data-value="85">
                       <span>
                         <span className="label">Industry Supply & Demand Modeling</span>
-                        <span className="number">85%</span>
+                        <span className="number">Proficient</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 85 + "%" }}
+                            style={{ width: 75 + "%" }}
                           ></div>
                         </div>
                       </div>
