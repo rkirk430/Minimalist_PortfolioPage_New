@@ -66,6 +66,12 @@ const About = () => {
                 </li> */}
                 <li>
                   <p>
+                    <span>Linkedin:</span>
+                    <a href="https://www.linkedin.com/in/robert-kirk1/">Connect Here</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
                     <span>Certifications:</span> CFA Charterholder, GA SEI
                   </p>
                 </li>
