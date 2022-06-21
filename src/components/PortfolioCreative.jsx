@@ -8,8 +8,17 @@ import Excel from '../assets/Exit_Opportunities.xlsx';
 import PersPort from "../assets/portfolio/Personal_Portfolio.jpg"
 import TeckPic from "../assets/portfolio/Teck_Picture.jpg"
 import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
-
 import AltData from "../assets/portfolio/AnotherAlt_adobe_express.jpeg";
+import AltModal from "../assets/portfolio/alt_data/front_page/QuantstampModal-1.jpg"
+
+//Placeholder Images
+import Beach from "../assets/portfolio/alt_data/placeholder/beach.jpg"
+import Building from "../assets/portfolio/alt_data/placeholder/building.jpg"
+import City from "../assets/portfolio/alt_data/placeholder/city.jpg"
+import City2 from "../assets/portfolio/alt_data/placeholder/city2.jpg"
+import Palms from "../assets/portfolio/alt_data/placeholder/palms.jpg"
+
+
 
 
 
@@ -189,7 +198,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src={Beach}
                             alt="Details"
                             data-tip
                             data-for="detail3"
@@ -223,7 +232,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/6.jpg"
+                            src={Building}
                             alt="Details"
                             data-tip
                             data-for="detail4"
@@ -258,7 +267,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={City}
                             alt="Details"
                             data-tip
                             data-for="detail5"
@@ -292,7 +301,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src={TeckPic}
+                            src={City2}
                             alt="Details"
                             data-tip
                             data-for="detail6"
@@ -326,7 +335,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={Palms}
                             alt="Details"
                             data-tip
                             data-for="detail7"
@@ -636,10 +645,10 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    // backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    // backgroundImage: "url(assets/img/portfolio/QuantstampFP-2.jpg)",
                     backgroundColor: "lightgray",
                   }}>
-                    <img src={AltData} alt="Data" />
+                    <img src={AltModal} alt="Data" />
 
                   
                 </div>
