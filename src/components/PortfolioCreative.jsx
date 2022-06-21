@@ -223,8 +223,9 @@ const Portfolio = () => {
                     {/* End Portfolio Item 3 Details */}
 
                     {/* Start: Portfolio Item 4 Details */}
+                    
 
-                    <li
+                    {/* <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="100"
@@ -253,13 +254,14 @@ const Portfolio = () => {
                           </ReactTooltip>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
+
                     {/* End Portfolio Item 4 Details */}
 
 
                     {/* Start: Porfolio Item 5 Details */}
 
-                    <li
+                    {/* <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="200"
@@ -288,7 +290,8 @@ const Portfolio = () => {
                           </ReactTooltip>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
+
                     {/* End Portfolio Item 5 Details */}
 
                     {/* Start: Porfolio Item 6 Details */}
