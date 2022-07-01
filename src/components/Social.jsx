@@ -2,7 +2,7 @@ import React from "react";
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 import { AiOutlineFilePdf } from 'react-icons/ai'
-import Resume from '../assets/RK_Resume.pdf'
+import Resume from '../assets/RK_Resume_6-22.pdf'
 import './social/social.css'
 
 

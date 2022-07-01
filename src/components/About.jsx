@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 // import Brand from "./Brand";
-import Resume from '../assets/RK_Resume.pdf'
+import Resume from '../assets/RK_Resume_6-22.pdf'
 
 
 import City from '../assets/Clouds_City_Resized.jpg'
@@ -27,9 +27,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                Hi! I come from a background of various roles within equity research and product strategy with an eagerness to learn and develop new skills. Most recently I completed General Assembly’s Software Immersion  Program to further develop my technical background and help support a transition into a role that I can leverage my prior experience with the software engineering knowledge I’ve developed.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

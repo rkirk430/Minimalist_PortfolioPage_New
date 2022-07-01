@@ -4,7 +4,8 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import ReactTooltip from "react-tooltip";
 import Modal from "react-modal";
 import Social from "./Social";
-import Excel from '../assets/Exit_Opportunities.xlsx';
+import IMG from '../assets/IMG.xlsx';
+
 import PersPort from "../assets/portfolio/Personal_Portfolio.jpg"
 import TeckPic from "../assets/portfolio/Teck_Picture.jpg"
 import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
@@ -43,6 +44,12 @@ const data = [
     // image: IMG1,
     title: 'Spotify Mockup',
     github: 'https://github.com/rkirk430/spotify_django',
+    demo: 'https://main--dashing-lily-e195e6.netlify.app/'
+  },
+  {
+    id:4,
+    title: 'Business Website',
+    github: 'https://github.com/rkirk430/smarthome',
     demo: 'https://main--dashing-lily-e195e6.netlify.app/'
   }
 ]
@@ -1062,7 +1069,7 @@ const Portfolio = () => {
                   </p>
                   <a href= {TeckModel} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
-                  <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a>
+                  {/* <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a> */}
                 </div>
                 <div className="detailbox">
                   <ul>
@@ -1137,9 +1144,9 @@ const Portfolio = () => {
                   <p>
                     Represents a fully functional three-statement financial model and blended valuation methodology for a mid-tier gold mining company. The model incorporates a DCF on a per asset basis and incorporates projects likely to be implemented into its cashflow valuation. In addition the model also incorporates a multiples valuation approach, weighting each approach 50% to arrive at an expected price target. Links to the model and subsequent research reports are below. 
                   </p>
-                  <a href= {Excel} className='btn' target = '_blank'> Excel </a>
+                  <a href= {IMG} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
-                  <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a>
+                  {/* <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a> */}
                 </div>
                 <div className="detailbox">
                   <ul>
