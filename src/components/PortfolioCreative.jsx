@@ -4,10 +4,8 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import ReactTooltip from "react-tooltip";
 import Modal from "react-modal";
 import Social from "./Social";
-import IMG from '../assets/IMG.xlsx';
 
 import PersPort from "../assets/portfolio/Personal_Portfolio.jpg"
-import TeckPicModal from "../assets/portfolio/Teck_Picture.jpg"
 
 // Alt Data Site 
 import AltData from "../assets/portfolio/AnotherAlt_adobe_express.jpeg";
@@ -21,6 +19,13 @@ import SpotifyModal from "../assets/portfolio/spotify/Spotify1.jpg"
 import TeckWriting from "../assets/portfolio/teck/Teck_Resources_Primer.pdf"
 import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
 import TeckPic from "../assets/portfolio/teck/TeckModel4.jpg"
+
+//Iamgold
+import IMG from '../assets/IMG.xlsx';
+import IMGPic from '../assets/portfolio/iamgold/IMGModel10.jpg'
+import IMGWriting from '../assets/portfolio/iamgold/Iamgold_Writeup.pdf'
+import IMGPicModal from '../assets/portfolio/iamgold/IMGModel10.jpg'
+
 
 
 
@@ -361,7 +366,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src={Palms}
+                            src={IMGPic}
                             alt="Details"
                             data-tip
                             data-for="detail7"
@@ -611,7 +616,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={IMGPic}
                             alt="Details"
                             data-tip
                             data-for="detail7"
@@ -1146,9 +1151,10 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
-                  }}
-                ></div>
+                    backgroundColor: "lightgray",
+                  }}>
+                    <img src={IMGPicModal} alt="IMG" />
+                  </div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
@@ -1163,7 +1169,7 @@ const Portfolio = () => {
                   </p>
                   <a href= {IMG} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
-                  <a href={IMG} className='btn' target = '_blank'> Writing Sample </a>
+                  <a href={IMGWriting} className='btn' target = '_blank'> Writing Sample </a>
                   {/* <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a> */}
                 </div>
                 <div className="detailbox">
