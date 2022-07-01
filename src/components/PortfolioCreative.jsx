@@ -7,10 +7,26 @@ import Social from "./Social";
 import IMG from '../assets/IMG.xlsx';
 
 import PersPort from "../assets/portfolio/Personal_Portfolio.jpg"
-import TeckPic from "../assets/portfolio/Teck_Picture.jpg"
-import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
+import TeckPicModal from "../assets/portfolio/Teck_Picture.jpg"
+
+// Alt Data Site 
 import AltData from "../assets/portfolio/AnotherAlt_adobe_express.jpeg";
-import AltModal from "../assets/portfolio/alt_data/front_page/QuantstampModal-1.jpg"
+import AltModal from "../assets/portfolio/alt_data/front_page/main/QSMain6.jpg"
+
+//Spotify
+import Spotify from "../assets/portfolio/spotify/Spotify1.jpg"
+import SpotifyModal from "../assets/portfolio/spotify/Spotify1.jpg"
+
+//Teck Resources
+import TeckWriting from "../assets/portfolio/teck/Teck_Resources_Primer.pdf"
+import TeckModel from "../assets/portfolio/Teck_Model_Client.xlsx"
+import TeckPic from "../assets/portfolio/teck/TeckModel4.jpg"
+
+
+
+
+
+
 
 //Placeholder Images
 import Beach from "../assets/portfolio/alt_data/placeholder/beach.jpg"
@@ -205,7 +221,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src={Beach}
+                            src={Spotify}
                             alt="Details"
                             data-tip
                             data-for="detail3"
@@ -311,7 +327,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src={City2}
+                            src={TeckPic}
                             alt="Details"
                             data-tip
                             data-for="detail6"
@@ -453,7 +469,7 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
-                            src="assets/img/portfolio/7.jpg"
+                            src={Spotify}
                             alt="Details"
                             data-tip
                             data-for="detail3"
@@ -815,9 +831,10 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                  }}
-                ></div>
+                    backgroundColor: "lightgray",
+                  }}>
+                    <img src={SpotifyModal} alt="spotify" />
+                </div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
@@ -1069,7 +1086,7 @@ const Portfolio = () => {
                   </p>
                   <a href= {TeckModel} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
-                  {/* <a href= {data[0].demo} className='btn' target = '_blank'> Live Demo </a> */}
+                  <a href={TeckWriting} className='btn' target='_blank'> Writing Sample </a>
                 </div>
                 <div className="detailbox">
                   <ul>
@@ -1146,6 +1163,7 @@ const Portfolio = () => {
                   </p>
                   <a href= {IMG} className='btn' target = '_blank'> Excel Model </a>
                   <br></br>
+                  <a href={IMG} className='btn' target = '_blank'> Writing Sample </a>
                   {/* <a href= {data[1].demo} className='btn' target = '_blank'> Live Demo </a> */}
                 </div>
                 <div className="detailbox">
