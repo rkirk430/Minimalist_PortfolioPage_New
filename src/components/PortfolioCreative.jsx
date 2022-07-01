@@ -29,22 +29,6 @@ import IMGPicModal from '../assets/portfolio/iamgold/IMGModel10.jpg'
 
 
 
-
-
-
-
-//Placeholder Images
-import Beach from "../assets/portfolio/alt_data/placeholder/beach.jpg"
-import Building from "../assets/portfolio/alt_data/placeholder/building.jpg"
-import City from "../assets/portfolio/alt_data/placeholder/city.jpg"
-import City2 from "../assets/portfolio/alt_data/placeholder/city2.jpg"
-import Palms from "../assets/portfolio/alt_data/placeholder/palms.jpg"
-
-
-
-
-
-
 const data = [
   {
     id:1,
@@ -565,7 +549,7 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li> */}
-                    
+
                   </ul>
                   
                     {/* End Details Project 5 */}
