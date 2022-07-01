@@ -22,7 +22,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">RJ Kirk, CFA</h3>
             <p className="job">
-              Software Engineer | Front-End Developer | Financial Background
+              Software Engineer | Equity Research
             </p>
             {/* END JOB */}
             <Social />
