@@ -27,7 +27,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hi! I come from a background of various roles within equity research and product strategy with an eagerness to learn and develop new skills. Most recently I completed General Assembly’s Software Immersion  Program to further develop my technical background and help support a transition into a role that I can leverage my prior experience with the software engineering knowledge I’ve developed.
+                Hi! I come from a background of various roles within equity research and product strategy with an eagerness to learn and develop new skills. Most recently I completed General Assembly’s Software Engineering Program to further develop my technical background and help support a transition into a role that I can leverage my prior experience with the software engineering knowledge I’ve developed.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

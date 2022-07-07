@@ -1,6 +1,7 @@
 import React from "react";
 import Social from "./Social";
-import Headshot from "../assets/headshot_picture_bw.png"
+// import Headshot from "../assets/headshot_picture_bw.png"
+import Headshot from "../assets/headshot_picture_lessdark.png"
 
 const Home = () => {
   return (
